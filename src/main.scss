@@ -1,0 +1,46 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(5, 18.8rem);
+    height: 500px;
+  
+    .cards {
+      padding: 0.5rem;
+      max-width: auto;
+      text-align: center;
+      border: 1px solid grey;
+  
+      img {
+        width: 6.25rem;
+        height: 8.75rem;
+        margin: 0 auto;
+      }
+  
+      .movies-info {
+        margin: auto;
+  
+        .title {
+          padding: 1rem 0;
+          font-weight: bold;
+          height: 3rem;
+        }
+  
+        .tomatoScore {
+          padding-bottom: 1rem;
+
+          .icon {
+              width: 10px;
+              height: 10px;
+          }
+        }
+  
+        .dvdReleaseDate {
+          color: grey;
+        }
+      }
+    }
+  }
+  
